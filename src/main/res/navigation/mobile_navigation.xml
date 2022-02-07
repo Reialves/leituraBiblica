@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_biblia"
+        android:name="com.example.leiturabiblica.ui.biblia.BibliaFragment"
+        android:label="@string/menu_biblia"
+        tools:layout="@layout/fragment_biblia" />
+
+    <fragment
+        android:id="@+id/nav_coment"
+        android:name="com.example.leiturabiblica.ui.comentarios.ComentariosFragment"
+        android:label="@string/menu_coment"
+        tools:layout="@layout/fragment_comentarios" />
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.leiturabiblica.ui.inicio.InicioFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_inicio" />
+
+    <fragment
+        android:id="@+id/nav_contribuir"
+        android:name="com.example.leiturabiblica.ui.contribuir.ContribuirFragment"
+        android:label="@string/menu_contribuir"
+        tools:layout="@layout/fragment_contribuir" />
+
+    <fragment
+        android:id="@+id/nav_minist"
+        android:name="com.example.leiturabiblica.ui.ministracoes.MinistracoesFragment"
+        android:label="@string/menu_minist"
+        tools:layout="@layout/fragment_ministracoes" />
+
+
+    <fragment
+        android:id="@+id/nav_sobre"
+        android:name="com.example.leiturabiblica.ui.sobre.SobreFragment"
+        android:label="@string/menu_sobre"
+        tools:layout="@layout/fragment_sobre" />
+
+
+
+</navigation>
